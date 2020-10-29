@@ -94,6 +94,65 @@ ANALYTICS:
 6. QuickSight: amazon business intelligence tool
 7. data pipeline: way of moving data bw diff aws services
 8. Glue: use for extract transfer and load
-9. 
 
 
+SECURITY IDENTITY & Compliance:
+
+1. IAM: identity access Management 
+2. Cognito: authenticate using mobile app, gmail ..based on access on mobile authentication you can access the aws Services for some period of time on your mobile.
+3. GuardDuty: it monitors malicious activity on your aws
+4. inspector: its ispect does my ec2 has any secuirty vulnerabilities.
+5. Macie: scans s3 bucket and look for thing that contains personla identifiable details ,,you will get alert if it finds any such details.
+6. Certificate manager:u ll get ssl for free 
+7. cloud HSM: cloud hardware security model: it stores encryupted private and public keys
+8. Directory service: integrating microsoft active directory into aws directory
+9. WAF: web application  firewall on website: look on app layer ..check whether user is malicous or not
+10. Shield: helps to prevent ddos, if you there might be ddos then prefer this service
+11. Artifact: order and compliance , aws compliance , download org control , payment card insutry report, way of downlainfg and incspecintg amazon's docuemntation.
+
+Mobile SERVICES:
+1. mobile hub: management console, setup aws services for you and generate cloud Configuration file, use aws mobile sdk toconn
+2. pinpoint: new service, way to using push noitification to engage mobile interactions.
+3. aws appsync: updates data in real time in web and mobile users , also update data in offline as soon as they become online.
+4. Device farm: testing app on real life devices.
+5. mobile analytics: 
+
+AR/VR:
+
+1. Sumerian its a language for arvr
+
+Application Integration:
+
+1. step function: managing lambda functions
+2. amazon mq: just like rabbitmq, to manage messages
+
+3. SNS: notification service, billing alarm. eg. when bill goes above 10dollers
+4. SQS: decouple and scale miroservices, distributed services annd serverless applciation, It supports programmatic sending of messages via web service applications as a way to communicate over the Internet.
+5. SWF:simple workflow service-> when someone order package on amazon then someone will put stickers and mark for courier , over there SWF is being used.
+
+CUSTOMER engagement:
+
+1. Connect: contact centre as a service, call center in cloud
+2. simple email service -SES: pay as you go , sending large amount of email
+
+BUSINESS productivity :
+
+1. alexa for Business :
+2. Chime: Video conf with employee, record mtg, work good with low bandwidth also
+3. work docs: securely storing your documents 
+4. workMail: like gmail
+
+DESKTOP and APP streaming:
+
+1. workspaces: runing window s on cloud but streaming windows os or any OS on your devices
+2. appstream 2.0: streaming actual applciations similar to what citrix have.
+
+IOT: 
+
+1. iot device management:
+2. amazon freeRTOS: OS for microcontroller
+3. Greengrass: software that let you run local compute messaging, connnect devices in secure manner
+
+Game development:
+
+1. GameLift: serfvice that let you develop game may be based on ar or vr or other games
