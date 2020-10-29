@@ -52,4 +52,48 @@ DEVELOP TOLLS:
 CLOUD9:
 
 1. IDE: env where you can develop your code like eclipse
-2. 
+
+MANAGEMENT TOOLS:
+
+1. cloud watch : bread and butter of sys administration 
+2. cloudFormation: useful for solution architect role, ways of scripting infrsasture, you an even deploy wordpress site , and also reuse that codes or scirpts in deploying somet oher stuffs. here templates are useful
+3. cloudTrail: creating s3 buckt ec2 instance, triggering api calls for every creation of ec2 or s3 or anyother thing, it logs your activity on console.
+4. config: monitors configuration of entire aws env and has point in time snapshots,, you can go back into time also to see 1 week ago how your env was looking or 2 days back how your env was looking. 
+5. OpsWorks: way to automating your env
+6. serviceCatalog: ways of managing IT stuffs, like vms or dbs like that, basically used by government 
+7. Systems Manager: interface for managing your security patches or your resources or group your resource also based on finance depart or hr department 
+8. TrustedAdvisor: fav secuirty associate course, gives advise on secuirty or if you left your port open or if dont use thsome service then it will tell its like a system advisor you will help in you closing unused services. like accountant.
+9. managed service: if you dont worry about autoscalling
+
+MEDIA SERVICE:
+
+1. Elastic transcoder: it will resize your video to beshown perfect on iphone or desktop or ipad ..like diff diff devices.
+2. Media Convert, media live, media package,media store,media tailor:
+
+MACHINE LEARNING:
+
+1. Sage maker: makes really easy to use deep learning for developers
+2. comprehend: do syntinal analysis 
+3. deeplens: door should open or not..based on image recognition 
+4. Lex: amazon alexa service
+5. machine learning: throw dataset and throw the result while deep learning is on neural level
+6. Polly: takex text and convert into speech with diff diff accents
+7. Rekognition: gives what it recognises 
+8. Polly: takex text and convert into speech with diff diff accentsin your video , it can be guy or cat or dog.
+9. Amazon Transalte: machine tranalting service
+10. Transcribe: speech into text like in subtitles
+
+ANALYTICS:
+
+1. Athena: allows you to run sql queires in objects in s3[excel or csv ] and gives you results
+2. EMR-elastic map reduce: for processing large amount of data
+3. cloud search : search service for aws
+3. elastic search: search service for aws
+4. Kinesis: huge topic for big data, ingesting large amount of data into aws, like social media feeds or hashtags relavant to your company.
+5. kinesis video streams:
+6. QuickSight: amazon business intelligence tool
+7. data pipeline: way of moving data bw diff aws services
+8. Glue: use for extract transfer and load
+9. 
+
+
